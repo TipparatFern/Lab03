@@ -1,8 +1,27 @@
-function clicktoPlay(){
-   const image = document.querySelector('img');
-   image.src = 'https://image.freepik.com/free-icon/x-symbol_318-1407.jpg';
-   image.removeEventListener('click',clicktoPlay);
-}
+const class_x ='x'
+const class_o ='o'
 
-const image = document.querySelector('img');
-image.addEventListener('click',clicktoPlay);
+
+
+/*Start game from class x by click */
+function clicktoPlay(){
+    const image = document.querySelector('img');
+    image.src = 'https://www.shareicon.net/data/256x256/2016/03/19/736268_error_512x512.png';
+    image.removeEventListener('click',clicktoPlay);
+ }
+ 
+ const image = document.querySelector('img');
+ image.addEventListener('click',clicktoPlay);
+
+ /*class o random
+ function randomtoPlay(){
+    const image = document.querySelector('img');
+    image.src = 'https://i.dlpng.com/static/png/1185263-open-o-png-2000_2000_preview.png';
+    image.removeEventListener('random',randomtoPlay);
+ }
+ 
+ const image = document.querySelector('img');
+ image.addEventListener('random',randomtoPlay);*/
+
+ 
+ 
