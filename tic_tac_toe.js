@@ -1,11 +1,18 @@
+/*x turn have to click*/
 function clicktoPlay(){
-    const image = document.querySelectorAll('img');
-    image.src = 'https://www.shareicon.net/data/256x256/2016/03/19/736268_error_512x512.png';
-    image.removeEventListener('click',clicktoPlay);
+    const imageElements = document.querySelector('img');
+    image.src = 'https://image.freepik.com/free-icon/x-symbol_318-1407.jpg';
+    image.removeEventListener('click',clicktoPlay)
  }
  
- const image = document.querySelectorAll('img');
+ const image = document.querySelector('img');
  image.addEventListener('click',clicktoPlay);
 
- 
+ /*circle turn random*/
+ function swapTurns(){
+    circle
+ }
+
+ /*condition to find the winner*/
+
  
